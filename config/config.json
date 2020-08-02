@@ -1,23 +1,21 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
+	"development": {
+		"url": "postgres://hoqwitva:yK6JfMUMZ6B7AJ5zISA3io9Xs1fkIhJ7@balarama.db.elephantsql.com:5432/hoqwitva",
+		"dialect": "postgres",
+		"operatorAliases": "0"
+	},
+	"test": {
+		"username": "root",
+		"password": null,
+		"database": "database_test",
+		"host": "127.0.0.1",
+		"dialect": "mysql"
+	},
+	"production": {
+		"username": "root",
+		"password": null,
+		"database": "database_production",
+		"host": "127.0.0.1",
+		"dialect": "mysql"
+	}
 }
