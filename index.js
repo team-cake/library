@@ -1,7 +1,7 @@
 const express = require('express')
 const User = require('./models/').user
-const Todoitem = require('./models/').todoitem
-const Todolist = require('./models/').todolist
+const Todoitem = require('./models/').todoItem
+const Todolist = require('./models/').todoList
 const app = express()
 const PORT = 4000
 
